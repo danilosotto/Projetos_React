@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Redirect } from "react-router-dom";
 import { usePost } from "../utils/rest";
 
-const urlKeyApi =
-  "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDWCasJMU31pm40Hg0dLQ3z-rR55HaihRc";
+//Alterar pela key que tenho salvado no notepad
+const urlKeyApi = "";
 
 const Login = () => {
   const [dataSignin, signin] = usePost(urlKeyApi);
